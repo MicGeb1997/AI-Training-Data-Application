@@ -1,0 +1,47 @@
+@page "/Categories"
+
+<PageTitle>Kategorien</PageTitle>
+
+<div class="container-fluid mt-4">
+    <div class="d-flex justify-content-between">
+        <div class="p-4 border rounded" style="flex-basis: 50%;">
+            <EditForm Model="NewCategory" OnValidSubmit="AddCategory" FormName="CategoryForm">
+                <DataAnnotationsValidator />
+                <div class="form-group mb-4">
+                    <label for="name" class="mb-2">Kategorie:</label>
+                    <InputText id="name" @bind-Value="NewCategory.Name" class="form-control mb-3" />
+                </div>
+                <button type="submit" class="btn btn-primary">Kategorie hinzufügen</button>
+            </EditForm>
+        </div>
+        <div class="p-4 border rounded" style="flex-basis: 50%;">
+            <h3>Kategorien</h3>
+            @if (_categories == null)
+            {
+                <p>
+                    <em>Laden...</em>
+                </p>
+            }
+            else
+            {
+                <table class="table mt-4">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Name</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var category in _categories)
+                        {
+                            <tr>
+                                <td>@category.Id</td>
+                                <td>@category.Name</td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            }
+        </div>
+    </div>
+</div>

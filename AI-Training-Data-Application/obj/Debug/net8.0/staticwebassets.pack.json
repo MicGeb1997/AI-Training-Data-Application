@@ -1,0 +1,41 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\MicGeb1997\\RiderProjects\\AI-Training-Data-Application\\AI-Training-Data-Application\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\AI-Training-Data-Application.bundle.scp.css",
+      "PackagePath": "staticwebassets\\AI-Training-Data-Application.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\MicGeb1997\\RiderProjects\\AI-Training-Data-Application\\AI-Training-Data-Application\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\MicGeb1997\\RiderProjects\\AI-Training-Data-Application\\AI-Training-Data-Application\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\MicGeb1997\\RiderProjects\\AI-Training-Data-Application\\AI-Training-Data-Application\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\MicGeb1997\\RiderProjects\\AI-Training-Data-Application\\AI-Training-Data-Application\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.AI-Training-Data-Application.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.AI-Training-Data-Application.props",
+      "PackagePath": "build\\AI-Training-Data-Application.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.AI-Training-Data-Application.props",
+      "PackagePath": "buildMultiTargeting\\AI-Training-Data-Application.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.AI-Training-Data-Application.props",
+      "PackagePath": "buildTransitive\\AI-Training-Data-Application.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

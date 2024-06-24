@@ -1,0 +1,36 @@
+@page "/Text-List"
+
+<PageTitle>Text Liste</PageTitle>
+
+<div class="container-fluid mt-4">
+    <div class="p-4 border rounded">
+        @if (_textItems == null)
+        {
+            <p>
+                <em>Laden...</em>
+            </p>
+        }
+        else
+        {
+            <table class="table mt-4">
+                <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Text</th>
+                    <th>Kategorien</th>
+                </tr>
+                </thead>
+                <tbody>
+                @foreach (var item in _textItems)
+                {
+                    <tr>
+                        <td>@item.Id</td>
+                        <td>@item.TextString</td>
+                        <td>@string.Join(", ", item.Categories.Select(c => c.Name))</td>
+                    </tr>
+                }
+                </tbody>
+            </table>
+        }
+    </div>
+</div>
